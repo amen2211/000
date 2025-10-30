@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Portal | تسجيل الدخول</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="login-page">
+
+  <!-- مقدمة الموقع -->
+  <div class="intro">
+    <h1>🎓 مرحباً بك في School Portal</h1>
+    <p>
+      هذا الموقع مصمم خصيصاً للطلاب لمراجعة كل المواد الدراسية بسهولة وبشكل جذاب.  
+      هنا يمكنك الوصول إلى جميع التمارين، الواجبات، والسلاسل التعليمية في:
+    </p>
+    <ul>
+      <li onclick="alert('yezi bla ta5dim l mo5 w 7ot l user wil pas makench hawa insta:amen.allah.exe')" href="#log">📘 الرياضيات (Math)</li>
+      <li onclick="alert('yezi bla ta5dim l mo5 w 7ot l user wil pas makench hawa insta:amen.allah.exe')" href="#log">📗 الفيزياء (Physics)</li>
+      <li onclick="alert('yezi bla ta5dim l mo5 w 7ot l user wil pas makench hawa insta:amen.allah.exe')" href="#log">💻 الإعلامية (Informatique)</li>
+      <li onclick="alert('yezi bla ta5dim l mo5 w 7ot l user wil pas makench hawa insta:amen.allah.exe')"href="#log">🌱 العلوم الطبيعية (SVT)</li>
+      <li onclick="alert('yezi bla ta5dim l mo5 w 7ot l user wil pas makench hawa insta:amen.allah.exe')"href="#log">🇫🇷 الفرنسية (Français)</li>
+      <li onclick="alert('yezi bla ta5dim l mo5 w 7ot l user wil pas makench hawa insta:amen.allah.exe')"href="#log">🇬🇧 الإنجليزية (English)</li>
+      <li onclick="alert('yezi bla ta5dim l mo5 w 7ot l user wil pas makench hawa insta:amen.allah.exe')"href="#log">🎬 سلاسل التمارين وSeries</li>
+    </ul>
+    <p>
+      كل الملفات متوفرة بصيغة PDF و JPG لتحميلها بسهولة ومراجعتها في أي وقت.  
+      واجهة الموقع تم تصميمها بشكل عصري لتسهيل التنقل بين المواد وجعل عملية المراجعة ممتعة وفعّالة.  
+      استمتع بتجربة تعليمية فريدة ومتكاملة، وتابع تقدمك الدراسي بسهولة.
+    </p>
+  </div>
+
+  <!-- form تسجيل الدخول -->
+  <div class="login-container" id="log">
+    <h2>تسجيل الدخول</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="error-msg"></p>
+  
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
